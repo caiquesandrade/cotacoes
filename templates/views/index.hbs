@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cotações</title>
+        <link rel="icon" href="img/ico.png" type="imge/gif" sizes="16x16">
+        <link rel="stylesheet" href="css/style.css">
+        
+
+    </head>
+
+    <body>
+        <div class="main-content">           
+         {{> header}}
+
+         <p>Procure por um ativo</p>
+
+         <form>
+             <input type="text" placeholder="Código do Ativo">
+             <button>Buscar</button>
+         </form>
+        </div>
+
+        <h3></h3>
+        <div class="display">
+            <p id="price"></p>
+        </div>
+        <div class="display">
+            <p id="price_open"></p>
+        </div class="display">
+        <div class="display">
+            <p id="day_high"></p>
+        </div>
+        <div class="display">
+            <p id="day_low"></p>
+        </div>
+        
+        
+        {{> footer}}
+
+    </body>
+    <script src="js/app.js" ></script>
+</html>
