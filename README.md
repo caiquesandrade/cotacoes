@@ -1,4 +1,4 @@
-#Projeto Cotações
+#Projeto Cotações#
 
 #Para executar configure as dependências
 `npm i`
