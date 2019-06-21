@@ -84,6 +84,8 @@ app.get('*', (req, res) => {
     })
 } )
 
-app.listen(3000, () => {
-    console.log('server is upon 3000 port')
+const port = process.env.PORT || 3000
+
+app.listen(port, () => {
+    console.log(`server is upon on port ${port}`)
 })
